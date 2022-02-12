@@ -1,0 +1,279 @@
+$base-color: #efa19d;
+$secondary-color: #efb8b5;
+$transparent-color: #f8f2f2;
+
+* {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.logoBits {
+    transform: scale(0.8);
+}
+
+.bitencoimg {
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.base-background {
+    background-color: $base-color;
+}
+
+.menulinks {
+    border-top: 1px solid $secondary-color;
+    width: 50%;
+}
+
+.storelinks {
+    border-top: 1px solid white;
+    width: 50%;
+}
+
+.aboutlinks {
+    border-top: 1px solid $secondary-color;
+    width: 50%;
+}
+
+.contactlinks {
+    border-top: 1px solid white;
+    border-bottom: 1px solid $secondary-color;
+    width: 50%;
+}
+
+capsule {
+    color: white;
+    transform: rotate(90deg);
+    font-size: 4vw;
+    font-weight: bold;
+    background-color: $base-color;
+    width: 400px;
+    height: 200px;
+    border-radius: 100px;
+    padding-left: 31%;
+    padding-right: 30%;
+    padding-top: 13%;
+}
+
+section {
+    background-color: $transparent-color;
+}
+
+.buttons {
+    position: relative;
+    .btn-pink {
+        background-color: #efa19d;
+        position: absolute;
+        color: white;
+        width: 6em;
+        top: -131px;
+        left: -246px;
+    }
+}
+
+.variants {
+    color: black;
+    position: absolute;
+    font-weight: bold;
+    top: 32%;
+    left: 6%;
+    &::after {
+        content: "";
+        width: 600px;
+        height: 3px;
+        background-color: $base-color;
+        position: absolute;
+        top: 52%;
+        left: 102%;
+    }
+}
+
+td {
+    color: $base-color;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.toppings {
+    color: black;
+    position: absolute;
+    font-weight: bold;
+    top: 69%;
+    left: 6%;
+    &::after {
+        content: "";
+        width: 600px;
+        height: 3px;
+        background-color: $base-color;
+        position: absolute;
+        top: 52%;
+        left: 102%;
+    }
+}
+
+.list-topping {
+    font-weight: bold;
+    position: absolute;
+    top: 73%;
+    left: 5%;
+}
+
+ul {
+    color: $base-color;
+}
+
+.pinkbg {
+    background-color: $base-color;
+}
+
+.store {
+    font-size: 5em;
+    color: white;
+    transform: rotate(-90deg);
+}
+
+.jakarta {
+    color: $base-color !important;
+    font-weight: bold;
+}
+.bandung {
+    color: $base-color !important;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 400;
+}
+.buttonsstore{
+    position: relative;
+    .btn-pink{
+        background-color: #EFA19D;
+        position: absolute;
+        color: white;
+        width: 6em;
+        top: -111px;
+        left: 250px;
+    }
+}
+
+kapsul{
+    color: white;
+    font-weight: bold;
+    background-color: $base-color;
+    width: 177px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 38px 65px;
+}
+
+.about-text{
+    font-size: 35px;
+}
+
+.buttonsabout{
+    position: relative;
+    .btn-pink{
+        background-color: #EFA19D;
+        position: absolute;
+        color: white;
+        width: 6em;
+        top: 41px;
+        left: 50px;
+    }
+}
+
+.buttonscontact{
+    position: relative;
+    .btn-pink{
+        background-color: #EFA19D;
+        position: absolute;
+        color: white;
+        width: 6em;
+        top: -241px;
+        left: -550px;
+    }
+}
+
+.phone{
+    position: absolute;
+    right: 100px;
+}
+
+.blob1{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    z-index: 2;
+}
+.blob2{
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    left: 430px;
+}
+
+.ctcUs, .us{
+    color: white;
+    z-index: 3;
+    position: absolute;
+    font-weight: bold;
+}
+
+.ctcUs{
+    top: 150px;
+    left: 510px;
+}
+.us{
+    top: 170px;
+    left: 530px;
+}
+
+
+kapsule{
+    color: white;
+    font-weight: bold;
+    background-color: #efa19d;
+    width: 196px;
+    height: 64px;
+    border-radius: 100px;
+    padding: 18px 51px;
+}
+
+.kapsull{
+    position: absolute;
+    top: 280px;
+    left: 250px;
+}
+
+.shipment{
+    position: absolute;
+    top: 380px;
+    left: 300px;
+}
+
+.bg1, .bg2{
+    position: absolute;
+}
+
+.bg1{
+    top: 0px;
+    left: 856px;
+}
+
+.bg2{
+    top: 130px;
+    left: 0px;
+}
